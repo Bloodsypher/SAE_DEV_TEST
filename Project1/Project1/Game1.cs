@@ -47,6 +47,7 @@ namespace Project1
             // TODO: Add your drawing code here
 
             GraphicsDevice.Clear(Color.Red);
+            //test
 
             base.Draw(gameTime);
         }
