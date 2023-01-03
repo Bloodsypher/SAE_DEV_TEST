@@ -19,6 +19,7 @@ namespace Project1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            Window.Title = "Test";
 
             base.Initialize();
         }
@@ -47,7 +48,7 @@ namespace Project1
             // TODO: Add your drawing code here
 
             GraphicsDevice.Clear(Color.Red);
-            //test
+            
 
             base.Draw(gameTime);
         }
